@@ -27,6 +27,10 @@ public class ConsultaProcesoStepDefinition {
         );
     }
 
+    @Entonces("^se busca por el juez (.*) y clase de proceso (.*)$")
+    public void buscarPorJuezYProceso(String nombreJuez, String proceso) {
+    }
+
     @Cuando("^debe poder activar la consulta$")
     public void debePoderActivarConsultas() {
         Daniel.should(
